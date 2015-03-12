@@ -119,11 +119,11 @@ add_control_branch_t(row);
 % plot(traj(:,1), traj(:,2),'y');
 
 figure(4);
-subplot(2,1,1);
+subplot(1,2,1);
 plot(time,traj(:,1));
 xlabel('t, c'); ylabel('y(t)');
 
-subplot(2,1,2);
+subplot(1,2,2);
 plot(time,traj(:,2));
 xlabel('t, c'); ylabel('dy / dt');
 
